@@ -37,6 +37,7 @@ code {
   border-radius: 1rem;
   text-align: center;
   padding: 2rem;
+  position: relative;
 }
 
 .book img{
@@ -54,3 +55,20 @@ code {
   margin-top: 0.25rem;
 }
 
+.number{
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 1rem;
+  padding: 0.75rem;
+  border-top-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  background: #c35660;
+  color: #fff;
+}
+
+h1{
+  text-align: center;
+  margin-top: 4rem;
+  text-transform: capitalize;
+}
